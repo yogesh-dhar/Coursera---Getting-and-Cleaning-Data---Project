@@ -10,12 +10,12 @@ In final step we generate a new dataset (full_data) with all the average measure
 
 Variables used:
 
-trainVal <- read.table("train/X_train.txt")
-trainAct <- read.table("train/y_train.txt")
-trainSub <- read.table("train/subject_train.txt")
-testVal <- read.table("test/X_test.txt")
-testAct <- read.table("test/y_test.txt")
-testSub <- read.table("test/subject_test.txt")
+trainVal (X_train.txt)
+trainAct (y_train.txt)
+trainSub (subject_train.txt)
+testVal (X_test.txt)
+testAct (y_test.txt)
+testSub (subject_test.txt)
 
 These vaiables contain data from the downloaded files.
 
