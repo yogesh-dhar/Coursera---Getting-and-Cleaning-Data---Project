@@ -1,15 +1,15 @@
 Download and Unzip dataset:
 
-> library(plyr)
-> url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-> file <- "UCI HAR Dataset.zip"
-> if (!file.exists(file)) {
+library(plyr)
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+file <- "UCI HAR Dataset.zip"
+if (!file.exists(file)) {
 	download.file(url, file, mode = "wb")
 }
-trying URL 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-Content type 'application/zip' length 62556944 bytes (59.7 MB)
-==================================================
-downloaded 59.7 MB
+#trying URL 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+#Content type 'application/zip' length 62556944 bytes (59.7 MB)
+#==================================================
+#downloaded 59.7 MB
 
 
 Path <- "UCI HAR Dataset"
@@ -17,7 +17,7 @@ if (!file.exists(Path)) {
 	unzip(file)
 }
 
-R Code to perform analysis:
+#R Code to perform analysis:
 
 # Step 1
 	# We will merge the training and test sets to create one data set
