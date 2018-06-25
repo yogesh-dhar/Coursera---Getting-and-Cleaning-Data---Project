@@ -4,8 +4,8 @@ Download and Unzip dataset:
 > url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 > file <- "UCI HAR Dataset.zip"
 > if (!file.exists(file)) {
-+     download.file(url, file, mode = "wb")
-+ }
+	download.file(url, file, mode = "wb")
+}
 trying URL 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 Content type 'application/zip' length 62556944 bytes (59.7 MB)
 ==================================================
@@ -14,8 +14,8 @@ downloaded 59.7 MB
 
 Path <- "UCI HAR Dataset"
 if (!file.exists(Path)) {
-+     unzip(zipFile)
-+ }
+	unzip(file)
+}
 
 R Code to perform analysis:
 
