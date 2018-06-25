@@ -47,10 +47,10 @@ R Code to perform analysis:
 	featuresMStdev <- grep("-(mean|std)\\(\\)", features[, 2])
 	
 	# subset the desired columns
-	dataVal <- dataVal[, MStdev]
+	dataVal <- dataVal[, featuresMStdev]
 	
 	# correct the column names
-	names(dataVal) <- features[MStdev, 2]
+	names(dataVal) <- features[featuresMStdev, 2]
 	
 	# Step 3
 	# Use activity names to name the activities in the data set
