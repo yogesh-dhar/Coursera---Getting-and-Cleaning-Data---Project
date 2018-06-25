@@ -77,4 +77,4 @@ R Code to perform analysis:
 	
 	mean_data <- ddply(full_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 	
-	write.table(mean_data, “tidy.txt”, row.name=FALSE)
+	write.table(mean_data, "tidy.txt", row.name=FALSE)
