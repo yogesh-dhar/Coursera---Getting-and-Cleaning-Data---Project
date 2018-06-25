@@ -24,3 +24,5 @@ These vaiables contain data from the downloaded files.
 - 'activities' variable deals with the activity names.
 - 'full_data' merges 'dataVal', 'dataAct' and 'dataSub' in a consolidated and cleaned dataset.
 - 'mean_data' contains the required mean values, which will be later stored in a .txt file (tidy.txt). We have used the function 'ddply()' from the 'plyr' package to apply colMeans() to improve our analysis.
+
+:Just copy and paste the entire code in R and it will produce the tidy dataset
